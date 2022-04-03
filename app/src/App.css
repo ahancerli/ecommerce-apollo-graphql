@@ -1,0 +1,109 @@
+.header {
+	background-color: #2a59fe;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-left {
+	display: flex;
+	flex-direction: row;
+}
+.logo {
+	color: #fff;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+}
+.has-search .form-control {
+	padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	font-size: 2rem;
+	line-height: 2.375rem;
+	text-align: center;
+	pointer-events: none;
+	color: #ddd;
+}
+
+.basket-content {
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.basket-price {
+	color: #fff;
+	padding-left: 10px;
+}
+.header-user-content {
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-userName {
+	color: #fff;
+	padding-left: 10px;
+}
+.basket-container {
+	padding-left: 25px;
+	cursor: pointer;
+}
+
+.user-container {
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.card-name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+}
+.card-price {
+	color: #2a59fe;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+}
+.main-basket-content-body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.basket-item-data {
+	display: flex;
+	flex-direction: row;
+}
